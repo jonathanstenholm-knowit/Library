@@ -6,7 +6,7 @@ info:
 servers:
   - url: https://apim-rpic-iig-dev.azure-api.net/iig/ebba/rpm/v1
 paths:
-  /shipment:
+  /itemsummarypublic:
     post:
       summary: ItemSummaryPublic
       description: ItemSummaryPublic
