@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: iig/rdg/tms
+  title: iig/ebba/rpm
   description: Import from "func-rpic-iig-rdg-requesthandler-dv-weu" Function App
   version: v1
 servers:
@@ -13,6 +13,14 @@ paths:
       operationId: post-itemsummarylocal
       responses:
         '200':
+          description: ''
+  /itemsummarypublic:
+    post:
+      summary: ItemSummaryPublic
+      description: ItemSummaryPublic
+      operationId: post-itemsummarypublic
+      responses:
+        '202':
           description: ''
 components:
   securitySchemes:
