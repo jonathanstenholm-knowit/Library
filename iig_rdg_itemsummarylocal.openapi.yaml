@@ -10,7 +10,7 @@ paths:
     post:
       summary: ItemSummaryLocal
       description: ItemSummaryLocal
-      operationId: post-temsummarylocal
+      operationId: post-itemsummarylocal
       responses:
         '200':
           description: ''
