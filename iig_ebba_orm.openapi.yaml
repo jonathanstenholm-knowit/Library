@@ -4,13 +4,13 @@ info:
   description: Import from "func-rpic-iig-rdg-requesthandler-dv-weu" Function App
   version: v1
 servers:
-  - url: https://apim-rpic-iig-dev.azure-api.net/iig/ebba/rpm/v1
+  - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/rpm/v1
 paths:
-  /replenishmentorder:
+  /ebba-replenishmentorder:
     post:
-      summary: ReplenishmentOrder
-      description: ReplenishmentOrder
-      operationId: post-replenishmentorder
+      summary: Ebba-ReplenishmentOrder
+      description: Ebba-ReplenishmentOrder
+      operationId: post-ebba-replenishmentorder
       responses:
         '200':
           description: ''
