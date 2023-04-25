@@ -4,21 +4,21 @@ info:
   description: Import from "func-rpic-iig-rdg-requesthandler-dv-weu" Function App
   version: v1
 servers:
-  - url: https://apim-rpic-iig-dev.azure-api.net/iig/ebba/rpm/v1
+  - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/rpm/v1
 paths:
-  /itemsummarylocal:
+  /ebba-itemsummarylocal:
     post:
-      summary: ItemSummaryLocal
-      description: ItemSummaryLocal
-      operationId: post-itemsummarylocal
+      summary: Ebba-ItemSummaryLocal
+      description: Ebba-ItemSummaryLocal
+      operationId: post-ebba-itemsummarylocal
       responses:
         '200':
           description: ''
-  /itemsummarypublic:
+  /ebba-itemsummarypublic:
     post:
-      summary: ItemSummaryPublic
-      description: ItemSummaryPublic
-      operationId: post-itemsummarypublic
+      summary: Ebba-ItemSummaryPublic
+      description: Ebba-ItemSummaryPublic
+      operationId: post-ebba-itemsummarypublic
       responses:
         '202':
           description: ''
