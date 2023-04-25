@@ -4,7 +4,7 @@ info:
   description: Import from "func-rpic-iig-rdg-requesthandler-dv-weu" Function App
   version: v1
 servers:
-  - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/rpm/v1
+  - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/orm/v1
 paths:
   /ebba-replenishmentorder:
     post:
