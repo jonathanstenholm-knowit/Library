@@ -6,19 +6,19 @@ info:
 servers:
   - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/rpm/v1
 paths:
-  /ebba-itemsummarylocal:
+  /itemsummarylocal:
     post:
-      summary: Ebba-ItemSummaryLocal
-      description: Ebba-ItemSummaryLocal
-      operationId: post-ebba-itemsummarylocal
+      summary: ItemSummaryLocal
+      description: ItemSummaryLocal
+      operationId: post-itemsummarylocal
       responses:
         '200':
           description: ''
   /ebba-itemsummarypublic:
     post:
-      summary: Ebba-ItemSummaryPublic
-      description: Ebba-ItemSummaryPublic
-      operationId: post-ebba-itemsummarypublic
+      summary: ItemSummaryPublic
+      description: ItemSummaryPublic
+      operationId: post-itemsummarypublic
       responses:
         '202':
           description: ''
