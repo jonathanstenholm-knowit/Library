@@ -6,11 +6,11 @@ info:
 servers:
   - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/tms/v1
 paths:
-  /ebba-shipment:
+  /shipment:
     post:
-      summary: Ebba-Shipment
-      description: Ebba-Shipment
-      operationId: post-ebba-shipment
+      summary: Shipment
+      description: Shipment
+      operationId: post-shipment
       responses:
         '200':
           description: 
