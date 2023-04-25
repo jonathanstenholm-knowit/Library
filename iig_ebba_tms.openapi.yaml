@@ -1,19 +1,19 @@
 openapi: 3.0.1
 info:
-  title: iig/rdg/tms
+  title: iig/rdg/shipment
   description: Import from "func-rpic-iig-rdg-requesthandler-dv-weu" Function App
   version: v1
 servers:
-  - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/tms/v1
+  - url: https://apim-rpic-iig-dev.azure-api.net/rdg/shipment/v1
 paths:
-  /shipment:
+  /ebba-handlerequest:
     post:
-      summary: Shipment
-      description: Shipment
-      operationId: post-shipment
+      summary: Ebba-Shipment
+      description: Ebba-Shipment
+      operationId: post-ebba-handlerequest
       responses:
         '200':
-          description: ''
+          description: 
 components:
   securitySchemes:
     apiKeyHeader:
