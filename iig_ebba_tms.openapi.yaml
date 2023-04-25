@@ -4,13 +4,13 @@ info:
   description: Import from "func-rpic-iig-rdg-requesthandler-dv-weu" Function App
   version: v1
 servers:
-  - url: https://apim-rpic-iig-dev.azure-api.net/rdg/shipment/v1
+  - url: https://apim-rpic-iig-dev.azure-api.net/iig/rdg/tms/v1
 paths:
-  /ebba-handlerequest:
+  /ebba-shipment:
     post:
       summary: Ebba-Shipment
       description: Ebba-Shipment
-      operationId: post-ebba-handlerequest
+      operationId: post-ebba-shipment
       responses:
         '200':
           description: 
